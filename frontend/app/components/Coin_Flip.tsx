@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Coins, Wallet } from "lucide-react"
 import { BrowserProvider, Contract, formatEther, parseEther } from "ethers"
-import CoinFlip from "../../../contract/artifacts/contracts/CoinFlip.sol/CoinFlip.json"
+import CoinFlip from "../../constants/CoinFlip.json"
 
 // Contract Configuration
 const CONTRACT_ADDRESS = "0x5B36E238d823e01B0363Ee128F59d2d4d9c60668"
